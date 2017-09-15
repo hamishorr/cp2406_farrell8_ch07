@@ -11,6 +11,13 @@ public class BabyName {
             name = input.nextLine();
             names.add(name);
         }
+        System.out.println(names.get(1).toString() + names.get(2).toString());
+        System.out.println(names.get(2).toString() + names.get(3).toString());
+        System.out.println(names.get(1).toString() + names.get(3).toString());
+        System.out.println(names.get(2).toString() + names.get(1).toString());
+        System.out.println(names.get(3).toString() + names.get(2).toString());
+        System.out.println(names.get(3).toString() + names.get(1).toString());
+
 
 
     }
